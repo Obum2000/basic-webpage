@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+body {
+    background-image: url("Background.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+}
+
+h2 {
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+    }
+    

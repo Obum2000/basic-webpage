@@ -1,0 +1,74 @@
+body {
+    background-color: blueviolet;
+}
+
+@media (min-width: 768px) {
+    .background1 {
+        background-color: azure;
+        display: flex;
+        
+    }
+}
+
+h1 {
+    font: bold;
+    color: violet;
+
+}
+
+h2 {
+    font: bold;
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+    .background {
+        background-image: url("Background.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        border-radius: 0.80cm;
+        height: 11cm;
+        padding: 1em;
+        margin: 1em;
+}   
+
+@media (min-width: 768px) {
+    .name {
+        display: flex;
+        float: right;
+    }
+}
+
+.city {
+    background-color: paleturquoise;
+    border-radius: 0.80cm;
+    padding: 1em;
+    margin: 1em;
+}
+
+@media (min-width: 768px) {
+.cityName {
+    display: flex;
+}
+}
+
+.languages {
+    background-color: palegreen;
+    border-radius: 0.80cm;
+    
+    padding: 1em;
+    margin: 1em;
+}
+
+@media (min-width: 900px) {
+    .Subjects {
+        background-color: paleturquoise;
+        border-radius: 0.80cm;
+        display: flex;
+        padding: 1em;
+        margin: 1em;
+    }
+}
