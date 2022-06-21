@@ -248,3 +248,12 @@ p {
     max-width: 60rem;
   }
 }
+
+table, th, td {
+  border: 1px solid rgb(16, 109, 196);
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  color: rgb(16, 109, 196);
+}
